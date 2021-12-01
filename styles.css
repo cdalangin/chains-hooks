@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+}
+
+h2, h4 {
+    color: #E57F84;
+    font-family: 'Corben', cursive;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav Bar */
+
+#navbar {
+    transition: 1s;
+}
+
+.logo {
+    height: 4em;
+}
+
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hero Section */
+#hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url("./assets/hero2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #4296a044;/*#F4EAE6;*/
+}
+
+
+#hero-title {
+    font-family: 'Corben', cursive;
+    font-size: 4em;
+    color: #E57F84; 
+    text-shadow: #F4EAE6 3px 3px;
+}
+
+.hero-desc{
+    color: #F4EAE6;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.hero-btn {
+    background-color: #2F5061;
+    border: 2px solid #2F5061;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero-btn:hover {
+    color: #2F5061;
+    background-color: white;
+    border: 2px solid #2F5061;
+}
+
+@media only screen and (min-width: 768px) {
+    #hero-title {
+        font-size: 6em;
+    }
+    .hero-btn {
+        font-size: 2em;
+    }
+}
+
+/* About Section */
+.about-img {
+    height: 10em;
+}
+
+@media only screen and (min-width: 768px) {
+    .about-img {
+        height: 20em;
+    }
+}
+
+/* Featured */
+
+.to-finished {
+    background-color: #2F5061;
+    transition: 1s;
+}
+
+.see-more {
+    font-size: 2em;
+    color: #F4EAE6;
+    transition: 1s;
+}
+
+.to-finished:hover {
+    background-color: #F4EAE6;
+}
+
+.see-more:hover {
+    color: #2F5061;
+}
+
+/* Footer */
+
+footer {
+    background-color: #2F5061;
+    color: #F4EAE6;
+}
+
+footer h6, 
+footer p, 
+.footer-links, 
+footer span {
+    color: #F4EAE6;
+}
+
+
+/* ---------- AMIGURUMI PATTERNS PAGE------------- */
+#ami-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url("./assets/amipatterns/amigurumi.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #4296a044;/*#F4EAE6;*/
+}
+
+
+#ami-hero-title, #cloth-hero-title, #tips-hero-title, #fin-hero-title {
+    font-family: 'Corben', cursive;
+    font-size: 2.5em;
+    color: #E57F84; 
+    text-shadow: #F4EAE6 1.5px 1.5px;
+}
+
+@media only screen and (min-width: 576px) {
+    #ami-hero-title, #cloth-hero-title, #tips-hero-title, #fin-hero-title {
+        font-size: 3em;
+        text-shadow: #F4EAE6 2px 2px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #ami-hero-title, #cloth-hero-title, #tips-hero-title, #fin-hero-title {
+        font-size: 6em;
+        text-shadow: #F4EAE6 3px 3px;
+    }
+}
+
+/* ---------- CLOTHING PATTERNS PAGE------------- */
+
+#fin-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url("./assets/finished.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #4296a044;
+}
+
+/* ---------- CLOTHING PATTERNS PAGE------------- */
+
+#cloth-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url("./assets/clothing/clothing.jpg");
+    background-size: cover;
+    background-position: center 70%;
+    height: 100vh;
+    color: #4296a044;
+}
+
+/* ---------- TIPS PAGE------------- */
+
+#tips-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url("./assets/tips.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #4296a044;
+}
