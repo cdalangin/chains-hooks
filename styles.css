@@ -7,13 +7,16 @@ h2, h4 {
     font-family: 'Corben', cursive;
 }
 
-p {
+p, li {
     font-family: 'Raleway', sans-serif;
 }
 
 a {
     text-decoration: none;
 }
+
+
+/* ----------- Home Page----------------- */
 
 /* Nav Bar */
 
@@ -94,23 +97,15 @@ a {
 .to-finished {
     background-color: #2F5061;
     transition: 1s;
-}
-
-.see-more {
     font-size: 2em;
     color: #F4EAE6;
-    transition: 1s;
 }
 
 .to-finished:hover {
     background-color: #F4EAE6;
-}
-
-.see-more:hover {
     color: #2F5061;
 }
 
-/* Footer */
 
 footer {
     background-color: #2F5061;
@@ -142,11 +137,27 @@ footer span {
     text-shadow: #F4EAE6 1.5px 1.5px;
 }
 
+#sidebar {
+    background-color: #F4EAE6;
+}
+
+.ami-cat-title {
+    font-size: 1.8em;
+    color: #E57F84;
+}
+
+.ami-categories {
+    font-size: 1.5em;
+    color: #4297A0;
+}
+
 @media only screen and (min-width: 576px) {
     #ami-hero-title, #cloth-hero-title, #tips-hero-title, #fin-hero-title {
         font-size: 3em;
         text-shadow: #F4EAE6 2px 2px;
     }
+
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -154,6 +165,7 @@ footer span {
         font-size: 6em;
         text-shadow: #F4EAE6 3px 3px;
     }
+    
 }
 
 /* ---------- CLOTHING PATTERNS PAGE------------- */
