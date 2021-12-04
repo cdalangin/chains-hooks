@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="./assets/favicon.ico"/>
+    <!-- Bootstrap Code -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Raleway&display=swap" rel="stylesheet">
+
+    <title>Sample Pattern</title>
+</head>
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top d-flex flex-row align-items-center justify-content-between">
+      <div class="container-fluid">
+        <img src="./assets/logo.png" alt="logo" class="logo mt-2 ms-3" />
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav text-end">
+              <li class="nav-item">
+                <a class="nav-link"  href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/finished.html">Finished Pieces</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Patterns
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/amipatterns.html">Amigurumi Patterns</a></li>
+                  <li><a class="dropdown-item" href="/clothingpatterns.html">Clothing Patterns</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/basics.html">Crochet Basics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactme.html">Contact Me</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+        
+    </nav>
+
+    <section id="patt-hero" class="d-flex flex-column align-items-center justify-content-center">    
+      <h2 id="patt-title" class="text-center p-3">Boba Snail</h2>
+    </section>
+
+    <section id="patt-info" class="row d-flex justify-content-center px-4 my-3 mx-0">
+      
+      <div class="col-12 col-md-5 py-2">
+        <div class="d-flex flex-column legend-box mb-4">
+            <div class="d-flex flex-row flex-wrap align-items-center justify-content-around m-3">
+              <h5 class="badge rounded-pill difficulty">Medium</h5>
+              <h5 class="badge rounded-pill hook-size">3.5mm</h5>
+              <h5 class="badge rounded-pill yarn-size">Worsted</h5>
+              <h5 class="badge rounded-pill crochet-type">Animal</h5>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column legend-box mb-2">
+          <h2 class="text-center m-3">Abbreviations</h2>
+          <div class="d-flex flex-row flex-wrap align-items-center justify-content-around m-3">
+            <ul class="patt-info">
+              <li>sc - single crochet</li>
+              <li>inc - increase</li>
+              <li>dec - decrease</li>
+              <li>st - stitch</li>
+              <li>ch - chain</li>
+              <li>sl st - slip stitch</li>
+              <li>blo - back loop only</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-7 py-2 ">
+        <div class="d-flex flex-column legend-box">
+          <h2 class="text-center m-3">Materials</h2>
+          <div class="d-flex flex-row align-items-center justify-content-around m-3">
+            <ul class="patt-info">
+              <li>Yarn A (Cream)</li>
+              <li>Yarn B (White)</li>
+              <li>Yarn C (Purple)</li>
+              <li>Yarn D (Yellow)</li>
+              <br>
+              <li>12mm Safety Eyes</li>
+              <li>3.5mm crochet hook</li>
+              <li>Stuffing</li>
+              <li>Yarn needle</li>
+              <li>Scissors</li>
+              <li>Stitch Marker</li>
+              <li>Brown Felt</li>
+              <li>Black Embroidery Thread</li>
+              <br>
+              <li><a href="https://www.ravelry.com/patterns/library/boba-snail" class="patt-src">PATTERN SOURCE</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REFERENCE: https://www.ravelry.com/patterns/library/boba-snail -->
+    <section id="patt-instructions" class="row py-3 m-0">
+        <h4 class="text-center fs-1">Instructions</h4>
+        <div class="col-12 col-md-6">
+          <div class="p-3 d-flex flex-column align-items-start">
+            <h4>Body (Yarn A)</h4>
+            <ul class="patt-info">
+              <li>R1 - sc6 in a magic ring (6)</li>
+              <li>R2 - inc x 6 (12)</li>
+              <li>R3 - (sc, inc) x 6 (18)</li>
+              <li>R4 - (sc 2, inc) x 6 (24)</li>
+              <li>R5 - (sc 3, inc) x 6 (30)</li>
+              <li>R6 to R32 - sc all around (30)</li>
+              <li>After R18, add eyes between R11, and R12, 5 st's apart. Lightly stuff up to R17.</li>
+              <li>R33 - (sc 3, dec) x 6 (24)</li>
+              <li>R34 to R38 - sc all around (24)</li>
+              <li>R39 - (sc 2, dec) x 6 (18)</li>
+              <li>R40 to R41 - sc all around (18)</li>
+              <li>R42 - (sc, dec) x 6 (12)</li>
+              <li>R43 - sc all around (12)</li>
+              <li>R44 - dec x 6 (6)</li>
+              <li>Finish off, close hole</li>
+            </ul>
+          </div>
+
+          <div class="p-3 d-flex flex-column align-items-start"> 
+            <h4>Antenna (Yarn B) - Make 2</h4>
+            <ul class="patt-info">
+              <li>R1 - Ch 8</li>
+              <li>R2 - sl st in second ch from hook, sl st to the end (7)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="p-3 d-flex flex-column align-items-start">
+            <h4>Shell (Start w/ Yarn B)</h4>
+            <ul class="patt-info">
+              <li>R1 - sc6 in a magic ring (6)</li>
+              <li>R2 - inc x 6 (12)</li>
+              <li>R3 - (sc, inc) x 6 (18)</li>
+              <li>R4 - (sc 2, inc) x 6 (24)</li>
+              <li>R5 - (sc 3, inc) x 6 (30)</li>
+              <li>R6 - (sc 4, inc) x 6 (36)</li>
+              <li><b>Switch to Yarn C</b></li>
+              <li>R6 - (sc 5, inc) x 6 (42)</li>
+              <li>R8 to R15 - sc all around x 6 (42)</li>
+              <li>R16 - (sc 5, dec) x 6 (36)</li>
+              <li>R17 - (sc 4, dec) x 6 (30)</li>
+              <li>R18 - (sc 3, dec) x 6 (24)</li>
+              <li>R19 - (sc 2, dec) x 6 (18)</li>
+              <li>Add stuffing</li>
+              <li>R20 - (sc, dec) x 6 (12)</li>
+              <li>R21 - dec x 6 (6)</li>
+              <li>Add more stuffing if needed. Leave a long tail for sewing and close hole</li>
+            </ul>
+          </div>
+
+          <div class="p-3 d-flex flex-column align-items-start">
+            <h4>Straw (Yarn D)</h4>
+            <ul class="patt-info">
+              <li>R1 - sc 8 in a magic ring (8)</li>
+              <li>R2 - sc around in BLO (8)</li>
+              <li>R3 - R7 - sc all around (8)</li>
+              <li>Leave a long tail for sewing, do not close. Add stuffing</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 m-0 p-4 ">
+          <h4>Assembly</h4>
+          <ul class="patt-info">
+            <li>Cut boba perls from brown felt. Glue around boba shell</li>
+            <li>Sew antennas on top snail's head</li>
+            <li>Sew bottom of the boba shell onto the snail boy</li>
+            <li>Sew straw on top of boba shell</li>
+            <li>Use pink felt/pink yarn/blush to add cheeks. Use black embroidery thread to make a mouth</li>
+          </ul>
+        </div>
+    </section>
+     <!-- Footer -->
+     <footer class="text-center text-lg-start text-muted">
+        <div class="container text-center text-md-start pt-3">
+          <div class="row mt-3">
+            <div class="col-md-3 mx-auto mb-4">
+              <h6 class="mb-4 fw-bold">CHAINS & HOOKS</h6>
+              <p>This is Cirill Florenz Dalangin's final project for CIS 3630.</p>
+            </div>
+
+            <div class="col-md-3 mx-auto mb-4">
+              <h6 class="fw-bold mb-4">LINKS</h6>
+              <p><a href="/amipatterns.html" class="footer-links">Amigurumi Patterns</a></p>
+              <p><a href="/clothingpatterns.html" class="footer-links">Clothing Patterns</a></p>
+              <p><a href="/finished.html" class="footer-links">Finished Pieces</a></p>
+              <p><a href="/basics.html" class="footer-links">Crochet Basics</a></p>
+            </div>
+            
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p>New York, NY 10012, USA</p>
+              <p>chainsandhooks@gmail.com</p>
+              <p>+1 551 555 5555</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center pb-4">
+          <p>© 2021 Copyright: Cirill Florenz Dalangin</p>
+        </div>
+    </footer>
+    
+
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+   
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          
+          document.getElementById("navbar").style.background = "#4297A0";
+        } else {
+        
+          document.getElementById("navbar").style.background = "none";
+        }
+      }
+    </script>
+</body>
+</html>

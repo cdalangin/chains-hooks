@@ -326,3 +326,37 @@ label {
     font-size: 1.3em;
     color: #2F5061;
 }
+
+/* ----------PATTERN PAGES --------------- */
+
+#patt-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url("./assets/home/snail.jpg");
+    background-color: #4297A0;
+    
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: 50% 60%;
+    min-height: 50vh;
+    color: #4296a044;
+}
+
+#patt-title {
+    font-size: 4em;
+    text-shadow: #F4EAE6 3px 3px;
+
+}
+
+.patt-info > li {
+    font-size: 1.2em;
+    color: #4297A0;
+}
+
+.patt-src {
+    color: #2F5061;
+    font-weight: bolder;
+}
+
+.patt-src:hover {
+    color: #223a46;
+}
