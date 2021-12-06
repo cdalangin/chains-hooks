@@ -282,6 +282,11 @@ label {
     margin-bottom: 7em;
 }
 
+.contact-btn {
+    background-color: #4297A0;
+    color: white;
+}
+
 @media only screen and (min-width: 576px) {
     .contact-box {
         margin-top: 7em;
