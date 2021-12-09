@@ -123,6 +123,10 @@ footer span {
     color: #F4EAE6;
 }
 
+.footer-links:hover {
+    color: #f4eae6be;
+}
+
 
 /* ---------- AMIGURUMI PATTERNS PAGE------------- */
 #ami-hero {
@@ -252,10 +256,36 @@ td {
     border-collapse: collapse;
 }
 
+.basics-stname {
+    color: #E57F84;
+    font-family: 'Corben', cursive;
+}
+
+.demo-btn {
+    background-color: #4297A0;
+    color: white;
+}
+
+.demo-btn:hover {
+    color: white;
+}
+
+.demo-vid {
+    width: 100%;
+    height: 50vh;
+}
+
+.vid-credits,
+.vid-credits >a {
+    color:#4297A0;
+}
+
+
+
 /* ---------CONTACT ME ------------- */
 
 #contact-hero {
-    background-image: url("./assets/contact.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url("./assets/contact.jpg");
     background-color: #4297A0;
     
     background-repeat: no-repeat;

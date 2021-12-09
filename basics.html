@@ -21,7 +21,7 @@
 <body>
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top d-flex flex-row align-items-center justify-content-between">
       <div class="container-fluid">
-        <img src="./assets/logo.png" alt="logo" class="logo mt-2 ms-3" />
+        <a href="/" ><img src="./assets/logo.png" alt="logo" class="logo mt-2 ms-3" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,19 +31,19 @@
                 <a class="nav-link"  href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/finished.html">Finished Pieces</a>
+                <a class="nav-link" href="finished.html">Finished Pieces</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Patterns
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="/amipatterns.html">Amigurumi Patterns</a></li>
-                  <li><a class="dropdown-item" href="/clothingpatterns.html">Clothing Patterns</a></li>
+                  <li><a class="dropdown-item" href="amipatterns.html">Amigurumi Patterns</a></li>
+                  <li><a class="dropdown-item" href="clothingpatterns.html">Clothing Patterns</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/basics.html">Crochet Basics</a>
+                <a class="nav-link active" aria-current="page" href="basics.html">Crochet Basics</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contactme.html">Contact Me</a>
@@ -73,7 +73,33 @@
         </tr>
         <tr>
           <td>1</td>
-          <td>Chain Stitch</td>
+          <td>
+            <p class="basics-stname">Chain Stitch</p>
+            <br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn demo-btn" data-bs-toggle="modal" data-bs-target="#chain-stitch">
+              Video Demo
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="chain-stitch" tabindex="-1" aria-labelledby="chain-stitch-label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="chain-stitch-label">Chain Stitch Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex flex-column align-items-center justify-content-between">
+                    <iframe src="https://www.youtube.com/embed/GjoVWbYhWuc" class="demo-vid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="vid-credits">Credits: <a href="https://www.youtube.com/channel/UCV9tshuywXyaTRONzSFy0Ug">Crochet Guru</a></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn demo-btn" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td>
             <div>
               <ol>
@@ -88,7 +114,33 @@
         </tr>
         <tr>
           <td>2</td>
-          <td>Slip Stitch</td>
+          <td>
+            <p class="basics-stname">Slip Stitch</p>
+            <br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn demo-btn" data-bs-toggle="modal" data-bs-target="#slip-stitch">
+              Video Demo
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="slip-stitch" tabindex="-1" aria-labelledby="slip-stitch-label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="slip-stitch-label">Slip Stitch Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex flex-column align-items-center justify-content-between">
+                    <iframe class="demo-vid" src="https://www.youtube.com/embed/AFk-fdAowbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="vid-credits">Credits: <a href="https://www.youtube.com/channel/UCEi5vDi04oNB_I2Nws7mA8Q">Crochet Guru</a></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn demo-btn" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td>
             <ol>
               <li>Insert your hook into the spot where you want to crochet the slip stitch</li>
@@ -99,7 +151,33 @@
         </tr>
         <tr>
           <td>3</td>
-          <td>Single Stitch</td>
+          <td>
+            <p class="basics-stname">Single Crochet Stitch</p>
+            <br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn demo-btn" data-bs-toggle="modal" data-bs-target="#single-stitch">
+              Video Demo
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="single-stitch" tabindex="-1" aria-labelledby="single-stitch-label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="single-stitch-label">Single Crochet Stitch Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex flex-column align-items-center justify-content-between">
+                    <iframe class="demo-vid" src="https://www.youtube.com/embed/Q3zd58GqHc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="vid-credits">Credits: <a href="https://www.youtube.com/channel/UCEi5vDi04oNB_I2Nws7mA8Q">Crochet Guru</a></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn demo-btn" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td>
             <ol>
               <li>Insert the hook through the first chain. Slide the hook under both loops on the top of the chain.</li>
@@ -112,7 +190,33 @@
         </tr>
         <tr>
           <td>4</td>
-          <td>Half Double Stitch</td>
+          <td>
+            <p class="basics-stname">Half Double Crochet Stitch</p>
+            <br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn demo-btn" data-bs-toggle="modal" data-bs-target="#half-stitch">
+              Video Demo
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="half-stitch" tabindex="-1" aria-labelledby="half-stitch-label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="half-stitch-label">Half Double Crochet Stitch Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex flex-column align-items-center justify-content-between">
+                    <iframe class="demo-vid" src="https://www.youtube.com/embed/QnOYlwGN5cI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="vid-credits">Credits: <a href="https://www.youtube.com/channel/UCEi5vDi04oNB_I2Nws7mA8Q">Crochet Guru</a></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn demo-btn" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td>
             <ol>
               <li>To work the first half double crochet into the foundation chain you will crochet into the chain that is three chains away from your hook. </li>
@@ -124,7 +228,33 @@
         </tr>
         <tr>
           <td>5</td>
-          <td>Double Stitch</td>
+          <td>
+            <p class="basics-stname">Double Crochet Stitch</p>
+            <br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn demo-btn" data-bs-toggle="modal" data-bs-target="#double-stitch">
+              Video Demo
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="double-stitch" tabindex="-1" aria-labelledby="double-stitch-label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="double-stitch-label">Double Crochet Stitch Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex flex-column align-items-center justify-content-between">
+                    <iframe class="demo-vid" src="https://www.youtube.com/embed/5xKssKskNzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="vid-credits">Credits: <a href="https://www.youtube.com/channel/UCEi5vDi04oNB_I2Nws7mA8Q">Crochet Guru</a></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn demo-btn" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td>
             <ol>
               <li>Begin by crocheting a foundation chain. Yarn over the hook and then insert the hook into the chain. </li>
@@ -136,7 +266,33 @@
         </tr>
         <tr>
           <td>6</td>
-          <td>Treble Stitch</td>
+          <td>
+            <p class="basics-stname">Treble Crochet Stitch</p>
+            <br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn demo-btn" data-bs-toggle="modal" data-bs-target="#treble-stitch">
+              Video Demo
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="treble-stitch" tabindex="-1" aria-labelledby="treble-stitch-label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="treble-stitch-label">Treble Crochet Stitch Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex flex-column align-items-center justify-content-between">
+                    <iframe class="demo-vid" src="https://www.youtube.com/embed/RH3u-wIOuJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="vid-credits">Credits: <a href="https://www.youtube.com/channel/UCEi5vDi04oNB_I2Nws7mA8Q">Crochet Guru</a></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn demo-btn" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
           <td>
             <ol>
               <li>Yarn over hook twice, then insert hook into next stitch.</li>
@@ -162,10 +318,10 @@
 
             <div class="col-md-3 mx-auto mb-4">
               <h6 class="fw-bold mb-4">LINKS</h6>
-              <p><a href="/amipatterns.html" class="footer-links">Amigurumi Patterns</a></p>
-              <p><a href="/clothingpatterns.html" class="footer-links">Clothing Patterns</a></p>
-              <p><a href="/finished.html" class="footer-links">Finished Pieces</a></p>
-              <p><a href="/basics.html" class="footer-links">Crochet Basics</a></p>
+              <p><a href="amipatterns.html" class="footer-links">Amigurumi Patterns</a></p>
+              <p><a href="clothingpatterns.html" class="footer-links">Clothing Patterns</a></p>
+              <p><a href="finished.html" class="footer-links">Finished Pieces</a></p>
+              <p><a href="basics.html" class="footer-links">Crochet Basics</a></p>
             </div>
             
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
